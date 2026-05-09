@@ -1,0 +1,21 @@
+# Secrets
+config/api_key.txt
+
+# Generated SUMO outputs
+outputs/
+mingzhu_network/
+
+# Python
+__pycache__/
+*.pyc
+*.pyo
+.pytest_cache/
+
+# OS
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Editor
+*.bak
+*~

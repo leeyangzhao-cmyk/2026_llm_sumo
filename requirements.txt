@@ -1,0 +1,6 @@
+# Python dependencies for 2026_llm_sumo
+# SUMO (netconvert, sumo-gui, randomTrips.py) must be installed separately:
+#   https://sumo.dlr.de/docs/Downloads.php
+# Set the SUMO_HOME environment variable to your SUMO installation directory.
+
+anthropic>=0.40.0
