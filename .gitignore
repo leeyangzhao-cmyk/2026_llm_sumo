@@ -4,6 +4,9 @@ config/api_key.txt
 # Generated SUMO outputs
 outputs/
 mingzhu_network/
+routes.rou.xml
+trips.trips.xml
+*.trips.xml
 
 # Python
 __pycache__/

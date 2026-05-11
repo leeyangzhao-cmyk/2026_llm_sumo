@@ -433,14 +433,13 @@ if __name__ == "__main__":
     generator = SceneGenerator(api_key)
 
     print("=" * 60)
-    print("LLM + SUMO 场景生成器（支持直接输入经纬度）")
+    print("LLM + SUMO Scene Generator")
     print("=" * 60)
-    print("\n💡 使用提示：")
-    print("   请在描述中包含经纬度坐标，例如：")
-    print("   '珠海明珠收费站，纬度22.2150，经度113.5250，半径2公里，轻度交通'")
-    print("   '北京天安门，经度116.4074，纬度39.9042，半径1000米，中度交通'")
+    print("\nUsage:")
+    print("   Please include latitude and longitude in your scene description.")
+    print("   Example: Beijing Tiananmen, longitude 116.4074, latitude 39.9042, radius 1000 meters, medium traffic")
 
-    user_input = input("\n请描述你想要的仿真场景：\n> ")
+    user_input = input("\nPlease describe the simulation scene you want:\n> ")
 
     params = generator.parse_user_input_simple(user_input)
     if params:

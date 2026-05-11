@@ -6,6 +6,18 @@ The pipeline uses an LLM to parse scene requirements, downloads road data from O
 
 The main research target is rapid urban road-network scenario generation for traffic simulation experiments.
 
+## Usage Demo
+
+The animation below shows a short usage demonstration of the LLM + SUMO scene generation workflow.
+
+![LLM SUMO usage demo](docs/media/usage-demo.gif)
+
+A higher-quality MP4 version is also included:
+
+```text
+docs/media/usage-demo.mp4
+```
+
 ## Project Layout
 
 ```text
